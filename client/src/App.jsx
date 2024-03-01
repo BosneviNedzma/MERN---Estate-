@@ -7,6 +7,7 @@ import Profile from "./pages/Profile";
 import Header from "./components/Header";
 import SignIn from "./pages/SignIn";
 
+
 export default function App() {
   return <BrowserRouter>
   <Header />
