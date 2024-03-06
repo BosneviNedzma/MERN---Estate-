@@ -18,6 +18,7 @@ export default function Profile() {
   const [fileUploadError, setFileUploadError] = useState
   (false);
   const [formData, setFormData] = useState({});
+  const [updateSuccess, setUpdateSuccess] = useState(false);
   const dispatch = useDispatch();
   
 
@@ -77,6 +78,7 @@ export default function Profile() {
         return;
       }
       dispatch(updateUserSuccess(data));
+      setUpdateSuccess(true);
     }catch(error){
       dispatch(updateUserFailure(error.messsage));
     }
@@ -126,7 +128,8 @@ export default function Profile() {
         <span className='text-red-700 cursor-pointer'>Delete account</span>
         <span className='text-red-700 cursor-pointer'>Sign out</span>
       </div>
-      <p className='text-red-700 mt-5'>{error ? error : ' '}</p>
+      <p className='text-red-700 mt-5'>{error ? error : ''}</p>
+      <p className='text-green-700 mt-5'>{updateSuccess ? 'User is updated successfully.' : ''}</p>
     </div>
   )
 }
