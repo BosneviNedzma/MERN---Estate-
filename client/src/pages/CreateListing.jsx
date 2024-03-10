@@ -125,7 +125,7 @@ export default function CreateListing() {
 
         }),
       });
-      const data = res.json();
+      const data = await res.json();
       setLoading(false);
       if(data.success === false){
         setError(data.message);
