@@ -63,7 +63,7 @@ bash
 
 #### Production
 
-- Deploy the application to a hosting service like Render. Ensure environment variables are configured for production.
+- https://mern-estate-1-briy.onrender.com/
 
 ## Project Structure
 
@@ -82,13 +82,8 @@ bash
 
 ## Development Timeline
 
-For a detailed overview of the development process, refer to the [video timeline](#) for specific features and functionality.
+For a detailed overview of the development process, refer to https://github.com/users/BosneviNedzma/projects/1/views/4 
 
 ## Contributing
 
 Feel free to contribute to this project. Follow the standard Git branching and pull request procedures.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-Adjust the placeholders like your-username and add any additional details or sections as needed for your project.
