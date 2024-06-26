@@ -80,6 +80,13 @@ bash
 - **Responsive Design**: Tailwind CSS used for responsive and modern UI.
 - **Deployment**: Deployed on Render (https://mern-estate-1-briy.onrender.com/).
 
+## Software quality control has been performed on:
+
+- Production, functional, and non-functional requirements
+- High-level test cases
+- Low-level test cases
+- Automated testing
+
 ## Development Timeline
 
 For a detailed overview of the development process, refer to https://github.com/users/BosneviNedzma/projects/1/views/4 
